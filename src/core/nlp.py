@@ -36,7 +36,9 @@ class NLP:
 
         known_commands: list[str] = [
             "joue",
+            "joues",
             "ecouter",
+            "écouter",
         ]
 
         command_word: Optional[str] = None
